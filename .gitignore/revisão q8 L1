@@ -1,0 +1,16 @@
+#include <iostream>
+
+int *filter (int*, int*);
+int main (void)
+{
+ int a[] = {-2,-8,6,7,-3,10,1,0,-3,7};
+ 
+ std::cout<<">>>Original array A: ]";
+ std::copy(std::begin(A),std::end(A),std::ostream_iterator<int> (std::cout, "  "));
+ std::cout<<"]\n";
+ 
+ //passando dois ponteiros
+ auto new_last = filter(begin(A),end(A))
+ 
+ 
+ 
